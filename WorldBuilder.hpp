@@ -1,0 +1,4 @@
+#ifndef WORLD_BUILDER
+#define WORLD_BUILDER
+
+#endif // WORLD_BUILDER
