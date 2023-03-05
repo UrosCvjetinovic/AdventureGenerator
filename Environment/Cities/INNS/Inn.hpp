@@ -1,4 +1,4 @@
-#ifndef INN
-#define INN
+#ifndef INN_HPP_
+#define INN_HPP_
 
-#endif // INN
+#endif // INN_HPP_

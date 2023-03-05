@@ -1,5 +1,5 @@
-#ifndef ROGUE
-#define ROGUE
+#ifndef ROGUE_HPP_
+#define ROGUE_HPP_
 
 #include "DnDClass.hpp"
 
@@ -9,4 +9,4 @@ class Rogue : public DNDClass {
 private:
 };
 
-#endif // ROGUE
+#endif // ROGUE_HPP_

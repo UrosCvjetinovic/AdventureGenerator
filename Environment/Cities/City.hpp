@@ -1,4 +1,4 @@
-#ifndef CITY
-#define CITY
+#ifndef CITY_HPP_
+#define CITY_HPP_
 
-#endif // CITY
+#endif // CITY_HPP_

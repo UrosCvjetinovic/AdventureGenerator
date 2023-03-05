@@ -1,5 +1,5 @@
-#ifndef NPC
-#define NPC
+#ifndef NPC_HPP_
+#define NPC_HPP_
 
 #include "../Character.hpp"
 
@@ -9,4 +9,4 @@ class Npc : public Character {
 private:
 };
 
-#endif // NPC
+#endif // NPC_HPP_

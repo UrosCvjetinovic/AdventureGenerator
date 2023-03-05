@@ -1,5 +1,5 @@
-#ifndef BARD
-#define BARD
+#ifndef BARD_HPP_
+#define BARD_HPP_
 
 #include "DnDClass.hpp"
 
@@ -9,4 +9,4 @@ class Bard : public DNDClass {
 private:
 };
 
-#endif // BARD
+#endif // BARD_HPP_

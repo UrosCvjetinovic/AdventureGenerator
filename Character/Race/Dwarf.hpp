@@ -1,5 +1,5 @@
-#ifndef DWARF
-#define DWARF
+#ifndef DWARF_HPP_
+#define DWARF_HPP_
 
 #include "Race.hpp"
 
@@ -10,4 +10,4 @@ private:
 
 };
 
-#endif // DWARF
+#endif // DWARF_HPP_

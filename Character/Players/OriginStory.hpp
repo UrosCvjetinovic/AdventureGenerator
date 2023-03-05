@@ -1,5 +1,5 @@
-#ifndef ORIGIN_STORY
-#define ORIGIN_STORY
+#ifndef ORIGIN_STORY_HPP_
+#define ORIGIN_STORY_HPP_
 
 class OriginStory {
     OriginStory();
@@ -7,4 +7,4 @@ class OriginStory {
 private:
 };
 
-#endif // ORIGIN_STORY
+#endif // ORIGIN_STORY_HPP_

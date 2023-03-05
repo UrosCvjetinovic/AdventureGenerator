@@ -1,5 +1,5 @@
-#ifndef DND_CLASS
-#define DND_CLASS
+#ifndef DND_CLASS_HPP_
+#define DND_CLASS_HPP_
 
 class DNDClass {
     DNDClass();
@@ -7,4 +7,4 @@ class DNDClass {
 private:
 };
 
-#endif // DND_CLASS
+#endif // DND_CLASS_HPP_

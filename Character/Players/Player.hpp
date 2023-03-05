@@ -1,5 +1,5 @@
-#ifndef PLAYER
-#define PLAYER
+#ifndef PLAYER_HPP_
+#define PLAYER_HPP_
 
 #include "../Character.hpp"
 
@@ -9,4 +9,4 @@ class Player : public Character {
 private:
 };
 
-#endif // PLAYER
+#endif // PLAYER_HPP_

@@ -1,5 +1,5 @@
-#ifndef PALADIN
-#define PALADIN
+#ifndef PALADIN_HPP_
+#define PALADIN_HPP_
 
 #include "DnDClass.hpp"
 
@@ -9,4 +9,4 @@ class Paladin : public DNDClass {
 private:
 };
 
-#endif // PALADIN
+#endif // PALADIN_HPP_

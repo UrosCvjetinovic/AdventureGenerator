@@ -1,5 +1,5 @@
-#ifndef ORC
-#define ORC
+#ifndef ORC_HPP_
+#define ORC_HPP_
 
 #include "Race.hpp"
 
@@ -10,4 +10,4 @@ private:
 
 };
 
-#endif // ORC
+#endif // ORC_HPP_

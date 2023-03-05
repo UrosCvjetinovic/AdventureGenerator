@@ -1,5 +1,5 @@
-#ifndef WIZARD
-#define WIZARD
+#ifndef WIZARD_HPP_
+#define WIZARD_HPP_
 
 #include "DnDClass.hpp"
 
@@ -9,4 +9,4 @@ class Wizard : public DNDClass {
 private:
 };
 
-#endif // WIZARD
+#endif // WIZARD_HPP_

@@ -1,5 +1,5 @@
-#ifndef CLERIC
-#define CLERIC
+#ifndef CLERIC_HPP_
+#define CLERIC_HPP_
 
 #include "DnDClass.hpp"
 
@@ -9,4 +9,4 @@ class Cleric : public DNDClass {
 private:
 };
 
-#endif // CLERIC
+#endif // CLERIC_HPP_

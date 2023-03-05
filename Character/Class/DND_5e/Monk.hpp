@@ -1,5 +1,5 @@
-#ifndef MONK
-#define MONK
+#ifndef MONK_HPP_
+#define MONK_HPP_
 
 #include "DnDClass.hpp"
 
@@ -9,4 +9,4 @@ class Monk : public DNDClass {
 private:
 };
 
-#endif // MONK
+#endif // MONK_HPP_

@@ -1,5 +1,5 @@
-#ifndef HUMAN
-#define HUMAN
+#ifndef HUMAN_HPP_
+#define HUMAN_HPP_
 
 #include "Race.hpp"
 
@@ -10,4 +10,4 @@ private:
 
 };
 
-#endif // HUMAN
+#endif // HUMAN_HPP_

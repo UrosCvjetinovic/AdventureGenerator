@@ -1,4 +1,4 @@
-#ifndef WORLD_BUILDER
-#define WORLD_BUILDER
+#ifndef WORLD_BUILDER_HPP_
+#define WORLD_BUILDER_HPP_
 
-#endif // WORLD_BUILDER
+#endif // WORLD_BUILDER_HPP_

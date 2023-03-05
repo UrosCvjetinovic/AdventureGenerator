@@ -1,5 +1,5 @@
-#ifndef ELF
-#define ELF
+#ifndef ELF_HPP_
+#define ELF_HPP_
 
 #include "Race.hpp"
 
@@ -10,4 +10,4 @@ private:
 
 };
 
-#endif // ELF
+#endif // ELF_HPP_

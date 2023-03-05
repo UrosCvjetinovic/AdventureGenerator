@@ -1,5 +1,5 @@
-#ifndef BARBARIAN
-#define BARBARIAN
+#ifndef BARBARIAN_HPP_
+#define BARBARIAN_HPP_
 
 #include "DnDClass.hpp"
 
@@ -9,4 +9,4 @@ class Barbarian : public DNDClass {
 private:
 };
 
-#endif // BARBARIAN
+#endif // BARBARIAN_HPP_

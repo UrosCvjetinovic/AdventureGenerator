@@ -1,5 +1,5 @@
-#ifndef RACE
-#define RACE
+#ifndef RACE_HPP_
+#define RACE_HPP_
 
 class Race {
     Race();
@@ -7,4 +7,4 @@ class Race {
 private:
 };
 
-#endif // RACE
+#endif // RACE_HPP_

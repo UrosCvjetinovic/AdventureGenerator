@@ -1,8 +1,0 @@
-#ifndef SPECIFIC_TYPES
-#define SPECIFIC_TYPES
-
-#define SHORT_NAME_SIZE 30u
-#define LONG_NAME_SIZE 50u
-
-
-#endif // SPECIFIC_TYPES

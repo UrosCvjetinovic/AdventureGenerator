@@ -1,5 +1,5 @@
-#ifndef DRUID
-#define DRUID
+#ifndef DRUID_HPP_
+#define DRUID_HPP_
 
 #include "DnDClass.hpp"
 
@@ -9,4 +9,4 @@ class Druid : public DNDClass {
 private:
 };
 
-#endif // DRUID
+#endif // DRUID_HPP_

@@ -1,5 +1,5 @@
-#ifndef SORCERER
-#define SORCERER
+#ifndef SORCERER_HPP_
+#define SORCERER_HPP_
 
 #include "DnDClass.hpp"
 
@@ -9,4 +9,4 @@ class Sorcerer : public DNDClass {
 private:
 };
 
-#endif // SORCERER
+#endif // SORCERER_HPP_
