@@ -6,9 +6,9 @@
 #include "AttributeType.hpp"
 #include "Race/Race.hpp"
 
-class Character {
-    Character(char* nameToSet, unsigned int maxHealthPointsToSet, unsigned int);
-    ~Character();
+class CharacterIf {
+    CharacterIf(char* nameToSet, unsigned int maxHealthPointsToSet, unsigned int);
+    ~CharacterIf();
 
     unsigned int getAttributeLevel (AttributeType::Type attribute) { return attributesLevel[attribute];}
     unsigned int getInProcentResistanceToDamageType (DamageType::Type damageType) { return resistanceToDamageInProcent[damageType];}

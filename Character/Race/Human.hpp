@@ -1,12 +1,13 @@
 #ifndef HUMAN_HPP_
 #define HUMAN_HPP_
 
-#include "Race.hpp"
+#include "RaceIf.hpp"
 
-class Human : public Race  {
-    Human();
-    ~Human();
-private:
+class Human : public RaceIf  {
+        Human();
+        ~Human();
+        RaceType::Type getRaceType() {return RaceType::Human;};
+    private:
 
 };
 

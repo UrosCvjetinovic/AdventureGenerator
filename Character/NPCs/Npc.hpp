@@ -1,9 +1,9 @@
 #ifndef NPC_HPP_
 #define NPC_HPP_
 
-#include "../Character.hpp"
+#include "../CharacterIf.hpp"
 
-class Npc : public Character {
+class Npc : public CharacterIf {
     Npc();
     ~Npc();
 private:

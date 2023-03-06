@@ -1,9 +1,9 @@
 #ifndef ROGUE_HPP_
 #define ROGUE_HPP_
 
-#include "DnDClass.hpp"
+#include "DNDClassIf.hpp"
 
-class Rogue : public DNDClass {
+class Rogue : public DNDClassIf {
     Rogue();
     ~Rogue();
 private:

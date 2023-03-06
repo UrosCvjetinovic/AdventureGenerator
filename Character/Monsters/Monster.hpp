@@ -1,9 +1,9 @@
 #ifndef MONSTER_HPP_
 #define MONSTER_HPP_
 
-#include "../Character.hpp"
+#include "../CharacterIf.hpp"
 
-class Monster : public Character {
+class Monster : public CharacterIf {
     Monster();
     ~Monster();
 private:

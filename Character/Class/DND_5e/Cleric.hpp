@@ -1,9 +1,9 @@
 #ifndef CLERIC_HPP_
 #define CLERIC_HPP_
 
-#include "DnDClass.hpp"
+#include "DNDClassIf.hpp"
 
-class Cleric : public DNDClass {
+class Cleric : public DNDClassIf {
     Cleric();
     ~Cleric();
 private:

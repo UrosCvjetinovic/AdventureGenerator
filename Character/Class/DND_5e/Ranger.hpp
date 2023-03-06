@@ -1,9 +1,9 @@
 #ifndef RANGER_HPP_
 #define RANGER_HPP_
 
-#include "DnDClass.hpp"
+#include "DNDClassIf.hpp"
 
-class Ranger : public DNDClass {
+class Ranger : public DNDClassIf {
     Ranger();
     ~Ranger();
 private:

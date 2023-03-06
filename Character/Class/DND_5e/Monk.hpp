@@ -1,9 +1,9 @@
 #ifndef MONK_HPP_
 #define MONK_HPP_
 
-#include "DnDClass.hpp"
+#include "DNDClassIf.hpp"
 
-class Monk : public DNDClass {
+class Monk : public DNDClassIf {
     Monk();
     ~Monk();
 private:

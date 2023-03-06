@@ -1,9 +1,9 @@
 #ifndef WIZARD_HPP_
 #define WIZARD_HPP_
 
-#include "DnDClass.hpp"
+#include "DNDClassIf.hpp"
 
-class Wizard : public DNDClass {
+class Wizard : public DNDClassIf {
     Wizard();
     ~Wizard();
 private:

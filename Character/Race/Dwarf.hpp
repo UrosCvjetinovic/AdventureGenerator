@@ -1,12 +1,13 @@
 #ifndef DWARF_HPP_
 #define DWARF_HPP_
 
-#include "Race.hpp"
+#include "RaceIf.hpp"
 
-class Dwarf : public Race {
-    Dwarf();
-    ~Dwarf();
-private:
+class Dwarf : public RaceIf {
+        Dwarf();
+        ~Dwarf();
+        RaceType::Type getRaceType() {return RaceType::Dwarf;};
+    private:
 
 };
 

@@ -1,9 +1,9 @@
 #ifndef BARD_HPP_
 #define BARD_HPP_
 
-#include "DnDClass.hpp"
+#include "DNDClassIf.hpp"
 
-class Bard : public DNDClass {
+class Bard : public DNDClassIf {
     Bard();
     ~Bard();
 private:

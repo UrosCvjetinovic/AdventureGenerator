@@ -1,9 +1,9 @@
 #ifndef BARBARIAN_HPP_
 #define BARBARIAN_HPP_
 
-#include "DnDClass.hpp"
+#include "DNDClassIf.hpp"
 
-class Barbarian : public DNDClass {
+class Barbarian : public DNDClassIf {
     Barbarian();
     ~Barbarian();
 private:

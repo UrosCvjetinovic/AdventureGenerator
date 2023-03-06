@@ -1,12 +1,13 @@
 #ifndef ELF_HPP_
 #define ELF_HPP_
 
-#include "Race.hpp"
+#include "RaceIf.hpp"
 
-class Elf : public Race  {
-    Elf();
-    ~Elf();
-private:
+class Elf : public RaceIf  {
+        Elf();
+        ~Elf();
+        RaceType::Type getRaceType() {return RaceType::Elf;};
+    private:
 
 };
 

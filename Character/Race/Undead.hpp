@@ -1,12 +1,13 @@
 #ifndef UNDEAD_HPP_
 #define UNDEAD_HPP_
 
-#include "Race.hpp"
+#include "RaceIf.hpp"
 
-class Undead : public Race  {
-    Undead();
-    ~Undead();
-private:
+class Undead : public RaceIf  {
+        Undead();
+        ~Undead();
+        RaceType::Type getRaceType() {return RaceType::Undead;};
+    private:
 
 };
 

@@ -1,9 +1,9 @@
 #ifndef SORCERER_HPP_
 #define SORCERER_HPP_
 
-#include "DnDClass.hpp"
+#include "DNDClassIf.hpp"
 
-class Sorcerer : public DNDClass {
+class Sorcerer : public DNDClassIf {
     Sorcerer();
     ~Sorcerer();
 private:

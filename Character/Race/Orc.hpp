@@ -1,12 +1,13 @@
 #ifndef ORC_HPP_
 #define ORC_HPP_
 
-#include "Race.hpp"
+#include "RaceIf.hpp"
 
-class Orc : public Race {
-    Orc();
-    ~Orc();
-private:
+class Orc : public RaceIf {
+        Orc();
+        ~Orc();
+        RaceType::Type getRaceType() {return RaceType::Orc;};
+    private:
 
 };
 

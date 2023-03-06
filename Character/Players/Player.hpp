@@ -3,7 +3,7 @@
 
 #include "../Character.hpp"
 
-class Player : public Character {
+class Player : public CharacterIf {
     Player();
     ~Player();
 private:

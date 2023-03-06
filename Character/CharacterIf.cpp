@@ -1,6 +1,6 @@
-#include "Character.hpp"
+#include "CharacterIf.hpp"
 
-void Character::takeDamage(DamageType::Type DamageType, unsigned int value) {
+void CharacterIf::takeDamage(DamageType::Type DamageType, unsigned int value) {
     unsigned int damageNotResisted = value * (resistanceToElementsInProcent[DamageType] / 100.0);
     if (damageNotResisted < healthPoints) {
         healthPoints -= damageNotResisted;
@@ -9,7 +9,7 @@ void Character::takeDamage(DamageType::Type DamageType, unsigned int value) {
     }
 }
 
-void Character::heal(unsigned int value) {
+void CharacterIf::heal(unsigned int value) {
     healthPoints += value;
     if (healthPoints > maxHealthPoints) {
         healthPoints = maxHealthPoints;

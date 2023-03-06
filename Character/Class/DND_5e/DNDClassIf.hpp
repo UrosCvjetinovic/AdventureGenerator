@@ -1,9 +1,9 @@
 #ifndef DND_CLASS_HPP_
 #define DND_CLASS_HPP_
 
-class DNDClass {
-    DNDClass();
-    ~DNDClass();
+class DNDClassIf {
+    DNDClassIf();
+    ~DNDClassIf();
 private:
 };
 

@@ -1,9 +1,9 @@
 #ifndef WARLOCK_HPP_
 #define WARLOCK_HPP_
 
-#include "DnDClass.hpp"
+#include "DNDClassIf.hpp"
 
-class Warlock : public DNDClass {
+class Warlock : public DNDClassIf {
     Warlock();
     ~Warlock();
 private:

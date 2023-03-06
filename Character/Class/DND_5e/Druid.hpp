@@ -1,9 +1,9 @@
 #ifndef DRUID_HPP_
 #define DRUID_HPP_
 
-#include "DnDClass.hpp"
+#include "DNDClassIf.hpp"
 
-class Druid : public DNDClass {
+class Druid : public DNDClassIf {
     Druid();
     ~Druid();
 private:

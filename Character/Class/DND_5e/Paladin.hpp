@@ -1,9 +1,9 @@
 #ifndef PALADIN_HPP_
 #define PALADIN_HPP_
 
-#include "DnDClass.hpp"
+#include "DNDClassIf.hpp"
 
-class Paladin : public DNDClass {
+class Paladin : public DNDClassIf {
     Paladin();
     ~Paladin();
 private:
