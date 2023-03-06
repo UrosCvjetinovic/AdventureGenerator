@@ -7,11 +7,11 @@
 #include "Race/Race.hpp"
 
 class Character {
-    Character();
+    Character(char* nameToSet, unsigned int maxHealthPointsToSet, unsigned int);
     ~Character();
 
     unsigned int getAttributeLevel (AttributeType::Type attribute) { return attributesLevel[attribute];}
-    unsigned int getInProcentResistanceToDamageType (DamageType::Type damageType) { return resistanceToElementsInProcent[damageType];}
+    unsigned int getInProcentResistanceToDamageType (DamageType::Type damageType) { return resistanceToDamageInProcent[damageType];}
     unsigned int getHP() {return healthPoints;}
     char* getName() {return name;}
     
@@ -24,8 +24,8 @@ private:
     char name[SHORT_NAME_SIZE];
     unsigned int attributesLevel [NUMBER_OF_ATTRIBUTES];
     unsigned int maxHealthPoints;
-    int healthPoints;
-    unsigned int resistanceToElementsInProcent [NUMBER_OF_DAMAGE_TYPES];
+    unsigned int healthPoints;
+    unsigned int resistanceToDamageInProcent [NUMBER_OF_DAMAGE_TYPES];
     // items
 
 };
