@@ -1,5 +1,5 @@
-#ifndef QUESTITEM_HPP_
-#define QUESTITEM_HPP_
+#ifndef ITEMS_CARIABLE_QUESTITEM_HPP_
+#define ITEMS_CARIABLE_QUESTITEM_HPP_
 
 #include "../Util/SpecificTypes.hpp"
 #include "../ItemIf.hpp"
@@ -36,4 +36,4 @@ class Gem : public QuestItemIf {
     QuestItemType::Type getQuestItemType() { return QuestItemType::Gem; }
 };
 
-#endif // QUESTITEM_HPP_
+#endif // ITEMS_CARIABLE_QUESTITEM_HPP_

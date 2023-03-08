@@ -1,0 +1,10 @@
+#ifndef CHARACTERS_CLASS_DND_5E_DNDCLASS_HPP_
+#define CHARACTERS_CLASS_DND_5E_DNDCLASS_HPP_
+
+class DNDClassIf {
+    DNDClassIf();
+    ~DNDClassIf();
+private:
+};
+
+#endif // CHARACTERS_CLASS_DND_5E_DNDCLASS_HPP_

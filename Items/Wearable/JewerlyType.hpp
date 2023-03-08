@@ -1,5 +1,5 @@
-#ifndef JEWERLY_TYPE_HPP_
-#define JEWERLY_TYPE_HPP_
+#ifndef ITEMS_WEARABLE_JEWERLYTYPE_HPP_
+#define ITEMS_WEARABLE_JEWERLYTYPE_HPP_
 
 #include "../Util/EnumException.hpp"
 
@@ -55,4 +55,4 @@ class JewerlyType {
         JewerlyType();
 };
 
-#endif // JEWERLY_TYPE_HPP_
+#endif // ITEMS_WEARABLE_JEWERLYTYPE_HPP_

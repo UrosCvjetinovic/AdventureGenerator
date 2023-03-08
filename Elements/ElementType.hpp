@@ -1,5 +1,5 @@
-#ifndef ELEMENT_TYPE_HPP_
-#define ELEMENT_TYPE_HPP_
+#ifndef ELEMENTS_ELEMENTTYPE_HPP_
+#define ELEMENTS_ELEMENTTYPE_HPP_
 
 #include "../Util/EnumException.hpp"
 
@@ -54,4 +54,4 @@ class ElementType {
         ElementType();
 };
 
-#endif // ELEMENT_TYPE_HPP_
+#endif // ELEMENTS_ELEMENTTYPE_HPP_

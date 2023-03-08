@@ -1,5 +1,5 @@
-#ifndef DAMAGE_TYPE_HPP_
-#define DAMAGE_TYPE_HPP_
+#ifndef ELEMENTS_DAMAGETYPE_HPP_
+#define ELEMENTS_DAMAGETYPE_HPP_
 
 #include "../Util/EnumException.hpp"
 
@@ -63,4 +63,4 @@ class DamageType {
         DamageType();
 };
 
-#endif // DAMAGE_TYPE_HPP_
+#endif // ELEMENTS_DAMAGETYPE_HPP_

@@ -1,5 +1,5 @@
-#ifndef CITY_LOCATION_TYPE_HPP_
-#define CITY_LOCATION_TYPE_HPP_
+#ifndef ENVIRONMENT_CITIES_CITYLOCATIONTYPE_HPP_
+#define ENVIRONMENT_CITIES_CITYLOCATIONTYPE_HPP_
 
 #include "../Util/EnumException.hpp"
 
@@ -39,4 +39,4 @@ class CityLocationType {
         CityLocationType();
 };
 
-#endif // CITY_LOCATION_TYPE_HPP_
+#endif // ENVIRONMENT_CITIES_CITYLOCATIONTYPE_HPP_

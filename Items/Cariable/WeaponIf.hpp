@@ -1,5 +1,5 @@
-#ifndef WEAPON_HPP_
-#define WEAPON_HPP_
+#ifndef ITEMS_CARIABLE_WEAPON_HPP_
+#define ITEMS_CARIABLE_WEAPON_HPP_
 
 #include "../Util/SpecificTypes.hpp"
 #include "../Elements/DamageType.hpp"
@@ -99,4 +99,4 @@ class MagicOrb : public WeaponIf {
     WeaponType::Type getWeaponType() { return WeaponType::Type::MagicOrb; }
 };
 
-#endif // WEAPON_HPP_
+#endif // ITEMS_CARIABLE_WEAPON_HPP_

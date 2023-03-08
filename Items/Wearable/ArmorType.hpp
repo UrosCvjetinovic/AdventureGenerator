@@ -1,5 +1,5 @@
-#ifndef ARMOR_TYPE_HPP_
-#define ARMOR_TYPE_HPP_
+#ifndef ITEMS_WEARABLE_ARMORTYPE_HPP_
+#define ITEMS_WEARABLE_ARMORTYPE_HPP_
 
 #include "../Util/EnumException.hpp"
 
@@ -75,4 +75,4 @@ class ArmorType {
         ArmorType();
 };
 
-#endif // ARMOR_TYPE_HPP_
+#endif // ITEMS_WEARABLE_ARMORTYPE_HPP_

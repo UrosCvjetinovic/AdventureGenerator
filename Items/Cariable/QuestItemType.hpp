@@ -1,5 +1,5 @@
-#ifndef QUESTITEM_TYPE_HPP_
-#define QUESTITEM_TYPE_HPP_
+#ifndef ITEMS_CARIABLE_QUESTITEMTYPE_HPP_
+#define ITEMS_CARIABLE_QUESTITEMTYPE_HPP_
 
 #include "../Util/EnumException.hpp"
 
@@ -51,4 +51,4 @@ class QuestItemType {
         QuestItemType();
 };
 
-#endif // QUESTITEM_TYPE_HPP_
+#endif // ITEMS_CARIABLE_QUESTITEMTYPE_HPP_

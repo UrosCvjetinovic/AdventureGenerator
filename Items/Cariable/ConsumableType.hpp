@@ -1,5 +1,5 @@
-#ifndef CONSUMABLE_TYPE_HPP_
-#define CONSUMABLE_TYPE_HPP_
+#ifndef ITEMS_CARIABLE_CONSUMABLETYPE_HPP_
+#define ITEMS_CARIABLE_CONSUMABLETYPE_HPP_
 
 #include "../Util/EnumException.hpp"
 
@@ -51,4 +51,4 @@ class ConsumableType {
         ConsumableType();
 };
 
-#endif // CONSUMABLE_TYPE_HPP_
+#endif // ITEMS_CARIABLE_CONSUMABLETYPE_HPP_

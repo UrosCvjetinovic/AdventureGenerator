@@ -1,5 +1,5 @@
-#ifndef WEAPON_TYPE_HPP_
-#define WEAPON_TYPE_HPP_
+#ifndef ITEMS_CARIABLE_WEAPONTYPE_HPP_
+#define ITEMS_CARIABLE_WEAPONTYPE_HPP_
 
 #include "../Util/EnumException.hpp"
 
@@ -87,4 +87,4 @@ class WeaponType {
         WeaponType();
 };
 
-#endif // WEAPON_TYPE_HPP_
+#endif // ITEMS_CARIABLE_WEAPONTYPE_HPP_

@@ -1,5 +1,5 @@
-#ifndef CONSUMABLE_HPP_
-#define CONSUMABLE_HPP_
+#ifndef ITEMS_CARIABLE_CONSUMABLE_HPP_
+#define ITEMS_CARIABLE_CONSUMABLE_HPP_
 
 #include "../Util/SpecificTypes.hpp"
 #include "../Elements/DamageType.hpp"
@@ -45,4 +45,4 @@ class Bomb : public ConsumableIf {
     ConsumableType::Type getConsumableType() { return ConsumableType::Bomb; }
 };
 
-#endif // CONSUMABLE_HPP_
+#endif // ITEMS_CARIABLE_CONSUMABLE_HPP_

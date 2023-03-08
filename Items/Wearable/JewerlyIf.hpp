@@ -1,5 +1,5 @@
-#ifndef JEWERLY_HPP_
-#define JEWERLY_HPP_
+#ifndef ITEMS_WEARABLE_JEWERLY_HPP_
+#define ITEMS_WEARABLE_JEWERLY_HPP_
 
 #include "../Util/SpecificTypes.hpp"
 #include "../Elements/DamageType.hpp"
@@ -49,4 +49,4 @@ class Earrings : public JewerlyIf {
     JewerlyType::Type getJewerlyType() { return JewerlyType::Earrings; }
 };
 
-#endif // JEWERLY_HPP_
+#endif // ITEMS_WEARABLE_JEWERLY_HPP_

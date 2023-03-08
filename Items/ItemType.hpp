@@ -1,5 +1,5 @@
-#ifndef ITEM_TYPE_HPP_
-#define ITEM_TYPE_HPP_
+#ifndef ITEMS_ITEMTYPE_HPP_
+#define ITEMS_ITEMTYPE_HPP_
 
 #include "../Util/EnumException.hpp"
 
@@ -72,4 +72,4 @@ class ItemType {
         ItemType();
 };
 
-#endif // ITEM_TYPE_HPP_
+#endif // ITEMS_ITEMTYPE_HPP_

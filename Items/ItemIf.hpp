@@ -1,5 +1,5 @@
-#ifndef ITEM_HPP_
-#define ITEM_HPP_
+#ifndef ITEMS_ITEM_HPP_
+#define ITEMS_ITEM_HPP_
 
 #include "../Util/SpecificTypes.hpp"
 #include "../Elements/DamageType.hpp"
@@ -21,4 +21,4 @@ private:
 
 
 
-#endif // ITEM_HPP_
+#endif // ITEMS_ITEM_HPP_

@@ -1,5 +1,5 @@
-#ifndef ARMOR_HPP_
-#define ARMOR_HPP_
+#ifndef ITEMS_WEARABLE_ARMOR_HPP_
+#define ITEMS_WEARABLE_ARMOR_HPP_
 
 #include "../Util/SpecificTypes.hpp"
 #include "../Elements/DamageType.hpp"
@@ -80,4 +80,4 @@ class Boots : public ArmorIf {
     ArmorType::Type getArmorType() { return ArmorType::Type::Boots; }
 };
 
-#endif // ARMOR_HPP_
+#endif // ITEMS_WEARABLE_ARMOR_HPP_
