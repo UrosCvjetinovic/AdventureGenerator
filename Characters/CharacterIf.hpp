@@ -10,9 +10,14 @@ class CharacterIf {
     CharacterIf(char* nameToSet, unsigned int maxHealthPointsToSet, unsigned int);
     ~CharacterIf();
 
+    void setAttributeLevel (AttributeType::Type attribute, unsigned int valueToSet) { attributesLevel[attribute] = valueToSet;}
     unsigned int getAttributeLevel (AttributeType::Type attribute) { return attributesLevel[attribute];}
+    void setInProcentResistanceToDamageType (DamageType::Type damageType, unsigned int valueToSet) { resistanceToDamageInProcent[damageType] = valueToSet;}
     unsigned int getInProcentResistanceToDamageType (DamageType::Type damageType) { return resistanceToDamageInProcent[damageType];}
+    void setHP (unsigned int valueToSet) {healthPoints = valueToSet;}
     unsigned int getHP() {return healthPoints;}
+    void setMaxHP (unsigned int valueToSet) {maxHealthPoints = valueToSet;}
+    unsigned int getMaxHP() {return maxHealthPoints;}
     char* getName() {return name;}
     
     bool isWounded() { return healthPoints < maxHealthPoints;}
